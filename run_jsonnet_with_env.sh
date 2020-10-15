@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+
 EXT_STR_FLAGS=''
 for E in $(awk 'BEGIN{for(v in ENVIRON) print v}')
 do
